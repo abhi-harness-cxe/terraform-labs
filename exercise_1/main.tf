@@ -13,7 +13,6 @@ resource "aws_s3_bucket" "tf-root-module-bucket" {
     enabled = true
   }
 
-resource 
   
   tags = {
     Name        = "${var.s3_bucket_name}"
