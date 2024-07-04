@@ -1,0 +1,13 @@
+infrastructureDefinition:
+  name: worpdress_infra23
+  identifier: worpdress_infra23
+  orgIdentifier: abhilabs
+  projectIdentifier: labsproject
+  environmentRef: wordpress_repo2
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: gkeconnector
+    namespace: dfsdasf
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: false
