@@ -25,5 +25,5 @@ resource "aws_s3_bucket" "tf-root-module-bucket" {
   
 resource "time_sleep" "wait_30_seconds" {
 
-  create_duration = "300s"
+  create_duration = "30s"
 }
